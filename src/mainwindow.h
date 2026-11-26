@@ -5,7 +5,6 @@
 #include <qpushbutton.h>
 #include "alphabetdialog.h"
 #include "stringinput.h"
-#include "state.h"
 
 class MainWindow : public QMainWindow {
     Q_OBJECT
