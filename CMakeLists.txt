@@ -14,7 +14,9 @@ add_executable(lab3
 	src/main.cpp
     src/alphabetdialog.cpp
     src/mainwindow.cpp
-    
+    src/state.h
+    src/ds.cpp
+    src/stringinput.cpp
 )
 
 target_link_libraries(lab3 PRIVATE Qt6::Widgets)

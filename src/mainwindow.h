@@ -1,7 +1,11 @@
 #pragma once
 
 #include <QMainWindow>
+#include <qlabel.h>
+#include <qpushbutton.h>
 #include "alphabetdialog.h"
+#include "stringinput.h"
+#include "state.h"
 
 class MainWindow : public QMainWindow {
     Q_OBJECT
@@ -12,4 +16,7 @@ public:
 
 private:
     AlphabetDialog *AlphabetD;
+    QPushButton *setAlphsButton;
+    StringInput *stringInput;
+    QLabel *baseLabel, *extraLabel;
 };

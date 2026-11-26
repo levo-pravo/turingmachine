@@ -14,4 +14,6 @@ public:
 
 private:
     QLineEdit *mainA, *dopA;
+    QPushButton *button;
+    bool f = 0;
 };
